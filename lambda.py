@@ -53,7 +53,8 @@ product = reduce(lambda acc,x :x* acc, input_nums)
 print(f"Product of nums: {product}")
 
 print()
-print("# Given a list of dictionaries, sort them by a key using a lambda.")
+print("# Given a list of dictionaries, sort them by age")
 users = [{'name': 'Alice', 'age': 25}, {'name': 'Bob', 'age': 20}]
 print(f"Given dictionary : {users}")
-sort_dict = sorted()
+sort_dict = sorted(users, key= lambda x: x['age'])
+print(f"Sorted dictionary: {sort_dict}")
