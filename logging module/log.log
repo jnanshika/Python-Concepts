@@ -1,0 +1,5 @@
+2025-05-30 07:45:11,681 - INFO:info
+2025-05-30 07:45:11,682 - WARNING:warning
+2025-05-30 07:45:11,682 - ERROR:error
+2025-05-30 07:45:11,682 - CRITICAL:critical
+2025-05-30 08:29:26,885 - INFO:Daily logging setup initialized
